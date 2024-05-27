@@ -1,0 +1,325 @@
+
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+    min-height: 460vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding : 0;
+    background-color: #f0f0f0;
+}
+header {
+    margin :0;
+    padding :0;
+    box-sizing : border-box; 
+    font-family :'Bebas Neue',sans-serif;
+    letter-spacing: 1.5px;
+    color: linear-gradient(to bottom right,#002f4b,#dc4225);;
+    position :fixed;
+    top: 0;
+    left:0;
+    width :100%;
+    display :flex;
+    justify-content : space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 100px;
+    z-index: 100;
+    
+    
+    
+    
+    
+}
+.header-js{
+    padding:10px 100px;
+    background-color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: 0 5px 15px #dc4225;
+    
+
+   
+}
+.logo {
+    font-size: 40pt;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: bold; 
+    color: #fff;
+    opacity: 70%;
+    
+
+}
+header ul {
+    position: relative; 
+    display: flex; 
+    justify-content : center;
+    align-items: center; 
+    font-size: 20pt;
+    opacity: 80%;
+
+}
+.navigation a:hover {
+    background-color: linear-gradient(#ffffff,transparent);
+    font-weight: 600;
+    border-radius:20px;
+    padding: 6px 15px;
+    text-decoration: none;
+    margin: 0 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.6);
+}
+header ul li {
+    position : relative; 
+    list-style: none;
+    
+    
+}
+
+header ul li a {
+    margin: 0 15px;
+    text-decoration :none;
+    color:#ffffff;
+    text-transform: uppercase;  
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+  }
+  
+.bg-img {
+    position:relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url('http://unsplash.it/1200x800') center center no-repeat;
+    background-size: cover;
+    text-align:center;
+    pointer-events: none;
+   
+
+    
+    &:before {
+      content: '';
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+      opacity: .6; 
+      z-index: -1;
+    }
+  }
+  .container {
+    height : 100vh;
+    background: linear-gradient(#000000,transparent),url(GTA_9.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0; 
+    padding: 0;
+    box-shadow: 0 5px 155px rgba(255, 255, 255, 0.6);
+    
+  }
+.container2 {
+    height: 100VH;
+    background-color: #000;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.container2 p{
+    color: #fff;
+    width:80%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.header-js a{
+    color: #002f4b;
+    font-weight: bold;
+    font-family: font-family: 'Bebas Neue', sans-serif;
+}
+
+
+h1 {
+    color: #f1bca1;
+    text-align: center;
+    font-family:'poppins', sans-serif;font-size:  25pt;
+    opacity: 100%;
+    
+
+}
+#titre {
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 5em;
+    color : #ffffff, transparent;
+    position: relative;
+    opacity: 80%;
+    background-color: linear-gradient(#ffffff,transparent);
+    
+
+}
+#preparate {
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 50px;
+    color : #002f4b;
+    position: relative;
+    opacity:60%;
+
+
+}
+#noticias {
+    color : #333;
+    font-family: "orbitron";
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+
+
+
+.contenido {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 12px; 
+    border-radius:10px;
+    margin: 56px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1); 
+}
+
+.contenido h2 {
+    color: #002f4b; 
+}
+
+.contenido p {
+    color: #333; 
+}
+
+
+
+h2 {
+    color :#002f4b;
+}
+p{
+    color : #333;
+    font-family: "orbitron";
+    font-size: 15pt;
+}
+ul {
+    list-style-type :none;
+    padding : 0pt;
+}
+
+img{
+    width:  60%; 
+    height : auto;
+    border-radius: 8pt;
+    display:block;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20pt;
+
+}
+
+#noticias-destacadas {
+    margin-bottom: 30px; 
+    position: relative;
+  }
+  
+  
+  .noticias-columna {
+    display: flex; 
+    flex-wrap:nowrap; 
+    flex-direction:row;
+  }
+  
+  .noticia {
+    margin-bottom: ;
+    margin: 10px;
+    width: 50%; 
+    position:relative;
+    
+
+
+  }
+  
+  .noticia img {
+    width:100%; 
+    height: auto; 
+    margin-bottom:10px; 
+    margin-right: 20px;
+   
+  }
+
+
+.noticia_container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    bottom:0;
+    top:0;
+    
+}
+.noticia_text{
+    position: absolute;
+    bottom: 160px; 
+}
+  
+  .noticia h3 {
+    font-size: 20px; 
+    margin-bottom: 5px; 
+  }
+  
+  .noticia p {
+    font-size: 15px; 
+    line-height: 1.6; 
+    color : #333;
+    font-family: "orbitron";
+  }
+  
+  .leer-mas {
+    display: inline-block; 
+    padding: 5px 10px; 
+    background-color: #dc4225; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 8px; 
+  }
+  
+  .leer-mas:hover {
+    background-color: #002f4b; 
+  }
+
+
+
+#join-us {
+    padding: 10px; 
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+footer {
+    background-image: linear-gradient(to bottom right,#a7b1b7,#dc4225);
+    opacity: 80%; 
+    color: #6d0101;
+    text-align: center;
+    padding: 10pt;
+    position :static;
+    bottom: 0;
+    width: 100%;
+
+}
